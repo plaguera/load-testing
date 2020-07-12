@@ -1,0 +1,28 @@
+"Method","Name","Error","Occurrences"
+"GET","/api/profiles/test","('Connection aborted.', error(54, 'Connection reset by peer'))",563
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh/comments","('Connection aborted.', error(54, 'Connection reset by peer'))",515
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles/un-titulo-creado-por-pedro-nkjgdh",485
+"GET","/api/articles","('Connection aborted.', error(54, 'Connection reset by peer'))",532
+"GET","/api/articles","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10c7ec150>: Failed to establish a new connection: [Errno 60] Operation timed out',))",245
+"GET","/api/profiles/test","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/profiles/test",464
+"GET","/api/tags","('Connection aborted.', error(54, 'Connection reset by peer'))",520
+"PUT","/api/user","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/user",525
+"GET","/api/articles","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles",484
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh/comments","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles/un-titulo-creado-por-pedro-nkjgdh/comments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a9ed650>: Failed to establish a new connection: [Errno 60] Operation timed out',))",243
+"GET","/api/tags","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/tags",472
+"GET","/api/user","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10cdcff90>: Failed to establish a new connection: [Errno 60] Operation timed out',))",238
+"POST","/api/users/login","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/users/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a1b86d0>: Failed to establish a new connection: [Errno 60] Operation timed out',))",1205
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh","('Connection aborted.', error(54, 'Connection reset by peer'))",547
+"PUT","/api/user","('Connection aborted.', error(54, 'Connection reset by peer'))",545
+"POST","/api/users/login","('Connection aborted.', error(54, 'Connection reset by peer'))",1494
+"GET","/api/profiles/test","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/profiles/test (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1082ea4d0>: Failed to establish a new connection: [Errno 60] Operation timed out',))",250
+"PUT","/api/user","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1084919d0>: Failed to establish a new connection: [Errno 60] Operation timed out',))",285
+"GET","/api/user","('Connection aborted.', error(54, 'Connection reset by peer'))",565
+"GET","/api/tags","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10cd137d0>: Failed to establish a new connection: [Errno 60] Operation timed out',))",263
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh/comments","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles/un-titulo-creado-por-pedro-nkjgdh/comments",453
+"GET","/api/articles/feed?limit=10","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles/feed?limit=10 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108b04250>: Failed to establish a new connection: [Errno 60] Operation timed out',))",259
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles/un-titulo-creado-por-pedro-nkjgdh (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x108271150>: Failed to establish a new connection: [Errno 60] Operation timed out',))",233
+"GET","/api/articles/feed?limit=10","('Connection aborted.', error(54, 'Connection reset by peer'))",567
+"GET","/api/user","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/user",486
+"POST","/api/users/login","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/users/login",344
+"GET","/api/articles/feed?limit=10","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles/feed?limit=10",477

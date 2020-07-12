@@ -1,0 +1,3 @@
+"Type","Name","Timestamp","# requests","# failures","Requests/s","Requests Failed/s","Median response time","Average response time","Min response time","Max response time","Average Content Size","50%","66%","75%","80%","90%","95%","98%","99%","99.9%","99.99%","99.999","100%"
+
+"None","Aggregated","1594582423",50143,13895,121.80,24.90,110,13115,61,105905.54,188.00,90,12000,18000,20000,93000,93000,93000,93000,93000,93000,93000,93000

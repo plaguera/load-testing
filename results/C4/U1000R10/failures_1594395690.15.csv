@@ -1,0 +1,10 @@
+"Method","Name","Error","Occurrences"
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles/un-titulo-creado-por-pedro-nkjgdh",10
+"GET","/api/profiles/test","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/profiles/test",8
+"PUT","/api/user","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/user",13
+"GET","/api/articles","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles",9
+"GET","/api/tags","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/tags",7
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh/comments","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles/un-titulo-creado-por-pedro-nkjgdh/comments",12
+"GET","/api/user","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/user",15
+"POST","/api/users/login","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/users/login",2
+"GET","/api/articles/feed?limit=10","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles/feed?limit=10",15

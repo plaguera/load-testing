@@ -1,0 +1,42 @@
+"Method","Name","Error","Occurrences"
+"GET","/api/profiles/test","('Connection aborted.', error(54, 'Connection reset by peer'))",259
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh/comments","('Connection aborted.', error(54, 'Connection reset by peer'))",297
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles/un-titulo-creado-por-pedro-nkjgdh",381
+"GET","/api/articles","('Connection aborted.', error(54, 'Connection reset by peer'))",302
+"GET","/api/articles","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a35e190>: Failed to establish a new connection: [Errno 60] Operation timed out',))",102
+"GET","/api/profiles/test","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/profiles/test",400
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles/un-titulo-creado-por-pedro-nkjgdh (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11e1981d0>: Failed to establish a new connection: [Errno 23] Too many open files in system',))",48
+"GET","/api/tags","('Connection aborted.', error(54, 'Connection reset by peer'))",299
+"GET","/api/user","HTTPConnectionPool(host='10.6.128.158', port=80): Read timed out. (read timeout=None)",1
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh","HTTPConnectionPool(host='10.6.128.158', port=80): Read timed out. (read timeout=None)",3
+"PUT","/api/user","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10abfacd0>: Failed to establish a new connection: [Errno 23] Too many open files in system',))",61
+"PUT","/api/user","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/user",402
+"POST","/api/users/login","HTTPConnectionPool(host='10.6.128.158', port=80): Read timed out. (read timeout=None)",217
+"GET","/api/articles/feed?limit=10","HTTPConnectionPool(host='10.6.128.158', port=80): Read timed out. (read timeout=None)",2
+"GET","/api/articles","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles",399
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh/comments","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles/un-titulo-creado-por-pedro-nkjgdh/comments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109a1c150>: Failed to establish a new connection: [Errno 60] Operation timed out',))",105
+"GET","/api/tags","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/tags",397
+"GET","/api/user","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109bda210>: Failed to establish a new connection: [Errno 60] Operation timed out',))",109
+"POST","/api/users/login","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/users/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11e1895d0>: Failed to establish a new connection: [Errno 23] Too many open files in system',))",1069
+"POST","/api/users/login","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/users/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10b6032d0>: Failed to establish a new connection: [Errno 60] Operation timed out',))",3752
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh","('Connection aborted.', error(54, 'Connection reset by peer'))",309
+"GET","/api/tags","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a6731d0>: Failed to establish a new connection: [Errno 23] Too many open files in system',))",48
+"PUT","/api/user","('Connection aborted.', error(54, 'Connection reset by peer'))",283
+"GET","/api/articles/feed?limit=10","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles/feed?limit=10 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10c53e950>: Failed to establish a new connection: [Errno 23] Too many open files in system',))",49
+"GET","/api/user","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x117455d50>: Failed to establish a new connection: [Errno 23] Too many open files in system',))",62
+"GET","/api/profiles/test","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/profiles/test (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ac8e110>: Failed to establish a new connection: [Errno 23] Too many open files in system',))",54
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh/comments","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles/un-titulo-creado-por-pedro-nkjgdh/comments (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119eaec50>: Failed to establish a new connection: [Errno 23] Too many open files in system',))",42
+"GET","/api/articles","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109c56490>: Failed to establish a new connection: [Errno 23] Too many open files in system',))",62
+"POST","/api/users/login","('Connection aborted.', error(54, 'Connection reset by peer'))",3049
+"GET","/api/profiles/test","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/profiles/test (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1198ef350>: Failed to establish a new connection: [Errno 60] Operation timed out',))",103
+"PUT","/api/user","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/user (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a099550>: Failed to establish a new connection: [Errno 60] Operation timed out',))",119
+"GET","/api/user","('Connection aborted.', error(54, 'Connection reset by peer'))",297
+"GET","/api/tags","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/tags (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x109cd3d10>: Failed to establish a new connection: [Errno 60] Operation timed out',))",105
+"GET","/api/articles","HTTPConnectionPool(host='10.6.128.158', port=80): Read timed out. (read timeout=None)",1
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh/comments","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles/un-titulo-creado-por-pedro-nkjgdh/comments",372
+"GET","/api/articles/feed?limit=10","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles/feed?limit=10 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1097a3d90>: Failed to establish a new connection: [Errno 60] Operation timed out',))",103
+"GET","/api/articles/un-titulo-creado-por-pedro-nkjgdh","HTTPConnectionPool(host='10.6.128.158', port=80): Max retries exceeded with url: /api/articles/un-titulo-creado-por-pedro-nkjgdh (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10a3257d0>: Failed to establish a new connection: [Errno 60] Operation timed out',))",109
+"GET","/api/articles/feed?limit=10","('Connection aborted.', error(54, 'Connection reset by peer'))",296
+"GET","/api/user","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/user",360
+"POST","/api/users/login","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/users/login",338
+"GET","/api/articles/feed?limit=10","500 Server Error: Internal Server Error for url: http://10.6.128.158/api/articles/feed?limit=10",374
